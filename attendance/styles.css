@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    position: relative;
+    border-radius: 4px;
+    margin:0 auto;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 3px 0 rgb(126, 126, 126);
+    user-select: none;
+}
+
+.btn:hover {
+    top: -4px;
+    box-shadow: 0 7px 0 rgb(126, 126, 126);
+}
+
+.btn:active {
+    top: 3px;
+    box-shadow: none;
+}
+
+.menu {
+    display: block;
+    width: 100px;
+    padding-top: 17px;
+}
+
+.list {
+    width: 500px;
+    text-align:left;
+    margin: 0 auto;
+}
