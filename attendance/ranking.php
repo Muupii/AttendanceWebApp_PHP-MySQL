@@ -30,7 +30,7 @@ if (isset($_SESSION['user']) != "") {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="index.php" class="title">Attendance in Umeken</a>
+    <a href="index.php" class="title">Attendance</a>
     <div class="list">
     <p>ranking</p>
     <?php if ($attendance == 0) { ?>
