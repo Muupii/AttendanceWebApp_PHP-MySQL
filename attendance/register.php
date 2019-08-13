@@ -38,7 +38,7 @@ if ($eventId === 'register') {
 </head>
 <body>
 <div class="container">
-        <a href="index.php" class="title">Attendance in Umeken</a>
+        <a href="index.php" class="title">Attendance</a>
         <form action="" method="post" id="form">
             <table align="center">
                 <tr>
